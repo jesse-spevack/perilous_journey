@@ -1,5 +1,5 @@
-# perilous_journey
-Ruby Linked List Demo
+# Perilous Journey
+### Ruby Linked List Demo
 
 This is a demonstration of how one can use the expressiveness of Ruby to write a recursive linked list.
 The code in this repo is part of a [blog post]() describing the development steps in this projcet.
@@ -9,13 +9,13 @@ This project draws heavily from the Turing School's [Perilous Journey](http://ba
 # Usage
 1. git clone
 2. cd perilous_journey
-3. Run the test suite - 
+3. Run the test suite -
   a. ruby test/node_test.rb
   b. ruby test/linked_list_test.rb
-  
+
 To build a linked list open 'irb' and:
 ```bash
- ~/Development/perilous_journey   master  irb
+irb
 2.3.1 :001 > require './lib/linked_list'
  => true
 2.3.1 :002 > list = LinkedList.new
